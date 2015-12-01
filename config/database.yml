@@ -9,15 +9,20 @@ default: &default
   pool: 5
   timeout: 5000
 
-development:
-  adapter: mysql2
-  username: root
-  password:
-  host: 127.0.0.1
-  port: 3306
-  database: blog_facilito
-  pool: 5
-  timeout: 5000
+
+development: 
+  <<: *default
+  database: db/blog.sqlite3
+
+#development:
+# adapter: mysql2
+#  username: usuario
+#  password: clave
+#  host: 127.0.0.1
+#  port: 3306
+#  database: base_de_datos
+#  pool: 5
+#  timeout: 5000
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
