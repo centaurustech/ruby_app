@@ -2,30 +2,42 @@
 <html>
 <head>
   <title>Blog</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/flexboxgrid/6.1.1/flexboxgrid.min.css" type="text/css" />
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+
+
+
 <header>
-	<nav class="be-red white large-padding">
-		<ul class="no-list row center-xs">
-			<li class="col-md">
-				<%= link_to "Inicio", root_path %>
-			</li>
-			<li class="col-md">
-			Diseno
-			</li>
-			<li class="col-md">
-			Programacion
-			</li>
-			<li class="col-md">
-			Tecnologia
-			</li>
-		</ul>
-		
-	</nav>
+
+<div class="row around-xs be-red white large-padding">
+    <div class="col-xs-2">
+        <div class="box">
+            <%= link_to "Inicio", root_path %>
+        </div>
+    </div>
+    <div class="col-xs-2">
+        <div class="box">
+            Diseño
+        </div>
+    </div>
+    <div class="col-xs-2">
+        <div class="box">
+            Programación
+        </div>
+    </div>
+    <div class="col-xs-2">
+        <div class="box">
+            Tecnología
+        </div>
+    </div>
+</div>
+
 </header>
 
 
