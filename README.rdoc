@@ -1,28 +1,9 @@
-== README
+== LEEME
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este archivo es un README, estamos haciendo pruebas con el GITHUB y la aplicación BLOG hecho con RUBY a través del curso de codigofacilito.com.
 
-Things you may want to cover:
+Titulo:
 
-* Ruby version
+* Etiquetas
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Please sientase libre de usar los diferentes marcados de lenguaje si no tienes plan de correr? -> <tt>rake doc:app</tt>.
