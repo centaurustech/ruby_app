@@ -1,6 +1,6 @@
 == LEEME
 
-Este archivo es un README, estamos haciendo pruebas con el GITHUB y la aplicación BLOG hecho con RUBY a través del curso de codigofacilito.com.
+Este archivo es un README, estamos haciendo pruebas con el GITHUB y la aplicación BLOG hecho con RUBY.
 
 Titulo:
 
